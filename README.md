@@ -80,3 +80,7 @@ src
 ├── utils                  # 工具函数层
 └── assets                 # 素材资源
 ```
+
+## License
+
+[MIT](./LICENSE) ® Arvin Xu
