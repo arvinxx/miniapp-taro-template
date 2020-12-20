@@ -4,6 +4,7 @@
 
 - 集成 Taro
 - 支持 Redux-devtools
+- 适配基础像素为1倍,即 1px 会编译成 2rpx,符合习惯（ Taro 默认是 2 倍）
 
 ## 开发步骤
 
