@@ -4,7 +4,8 @@
 
 - 👽 Taro 脚手架版本 V3.0,支持所有 React 特性
 - 💡 全面支持 Typescript
-- 📺 支持 Redux-devtools
+- 📺 支持 Redux-Devtools
+- 💄 默认开启 CSS Modules
 - 📏 适配基础像素为1倍,即 1px 会编译成 2rpx,更符合前端习惯（Taro 脚手架默认是 2 倍）
 
 ## 开发步骤
@@ -59,7 +60,7 @@ Stook 是一个基于 Hooks 的数据流管理方案 [文档地址](https://stoo
 ├── config                 # 配置目录(已经配好了 基本上不用动)
 ├── types                # 类型定义目录
 ├── dist                   # 编译结果目录
-├── libs                   # 一些特殊的模块(不用管)
+├── libs                   # remote-redux-devtools 文件地
 └── package.json
 ```
 
@@ -67,7 +68,7 @@ Stook 是一个基于 Hooks 的数据流管理方案 [文档地址](https://stoo
 
 ```
 src
-├── index.html             # 初始化文件(不用管)
+├── index.html             # 入口 html 文件
 ├── app.tsx                # React 入口文件
 ├── app.config.ts          # 小程序相关配置文件
 ├── app.global.less        # 全局样式
