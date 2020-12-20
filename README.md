@@ -2,9 +2,10 @@
 
 ## 特征
 
-- 集成 Taro
-- 支持 Redux-devtools
-- 适配基础像素为1倍,即 1px 会编译成 2rpx,符合习惯（ Taro 默认是 2 倍）
+- 👽 Taro 脚手架版本 V3.0,支持所有 React 特性
+- 💡 全面支持 Typescript
+- 📺 支持 Redux-devtools
+- 📏 适配基础像素为1倍,即 1px 会编译成 2rpx,更符合前端习惯（Taro 脚手架默认是 2 倍）
 
 ## 开发步骤
 
