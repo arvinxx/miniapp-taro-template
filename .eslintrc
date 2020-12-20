@@ -1,0 +1,19 @@
+{
+  "extends": ["taro/react"],
+  "rules": {
+    "jsx-quotes": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          // 在这里书写 alias,格式为
+          // 举例: ["@/theme", "./src/theme"],
+        ]
+      },
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  }
+}
